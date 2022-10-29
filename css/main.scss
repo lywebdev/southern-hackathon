@@ -1,0 +1,21 @@
+@import 'config/variables';
+
+
+#app {
+  font-family: $font-roboto;
+  color: $color-black;
+}
+
+
+#app-zone {
+  padding-left: $pc-grid;
+  padding-right: $pc-grid;
+}
+
+.app-info {
+  margin-top: 50px;
+  font-size: 16px;
+}
+
+
+@import 'components/autoload';
